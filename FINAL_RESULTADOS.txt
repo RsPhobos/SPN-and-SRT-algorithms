@@ -1,0 +1,30 @@
+DESARROLLO DE SRT
+***************************************************************
+RESULTADOS FINALES
+PID	Pri	Lle	CPU	SAL	RET	ESP	TRN
+1000	1	0	4	10	11	7	2.750
+1001	2	0	3	6	7	4	2.333
+1002	1	1	2	2	2	0	1.000
+1003	2	2	4	14	13	9	3.250
+1004	0	3	2	4	2	0	1.000
+Promedio de Tiempo de Retorno: 7.000
+Promedio de Tiempo de Espera: 4.000
+Promedio de Tiempo de Servicio: 3.000
+Tiempo de Retorno Normalizado del Promedio: 2.333
+***************************************************************
+DESARROLLO DE SPN
+***************************************************************
+RESULTADOS FINALES
+PID	Pri	Lle	CPU	SAL	RET	ESP	TRN
+1000	1	0	4	11	11	7	2.750
+1001	2	0	3	3	3	0	1.000
+1002	1	1	2	7	6	4	3.000
+1003	2	2	4	15	13	9	3.250
+1004	0	3	2	5	2	0	1.000
+Tiempo de Retorno Promedio: 7.000
+Tiempo de Espera Promedio: 4.000
+Tiempo de Servicio Promedio: 3.000
+Tiempo de Retorno Normalizado Promedio: 2.333
+***************************************************************
+CONCLUSION
+Ambos algoritmos son eficientes para este caso
